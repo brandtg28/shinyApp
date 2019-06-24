@@ -49,7 +49,7 @@ shinyUI(dashboardPage(
 	    fluidRow(
 	      h1("Source Data - Filtered for points in Manhattan only"),
 	      h5("*The terrorist attack on 10/31/17 has been removed to meet the intent of this project."),
-	      box(dataTableOutput("table")))),
+	      box(dataTableOutput("table", width='1000px')))),
 	
 	
 	  tabItem(tabName = "Biography",

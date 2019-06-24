@@ -73,7 +73,7 @@ shinyServer(function(input, output, session){
 	  
 	
 	output$table = renderDataTable({
-	  datatable(NYC_all, rownames=FALSE)
+	  datatable(NYC_all, rownames=FALSE, options = list(scrollX=T))
 	})
 	
 	url = a("Brandt's Linkedin Profile", href="https://www.linkedin.com/in/brandt-germann-01350423/")
